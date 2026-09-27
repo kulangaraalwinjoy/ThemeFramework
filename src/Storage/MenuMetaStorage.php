@@ -50,6 +50,11 @@ class MenuMetaStorage implements StorageInterface
         $metaKey = $this->getMetaKey($key);
 
         if (!metadata_exists('post', $menuItemId, $metaKey)) {
+            // Fallback to check unprefixed key if prefixed does not exist
+            if (metadata_exists('post', $menuItemId, $key)) {
+                $fallback = get_post_meta($menuItemId, $key, true);
+                return $fallback !== '' ? $fallback : $default;
+            }
             return $default;
         }
 

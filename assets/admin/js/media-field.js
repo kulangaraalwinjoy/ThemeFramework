@@ -5,14 +5,14 @@
     'use strict';
 
     function initMediaFields() {
-        $(document).on('click', '.theme-framework-media-select, .theme-framework-media-replace', function (e) {
+        $(document).on('click', '.theme-framework-media-select, .theme-framework-media-replace, .theme-framework-media-upload', function (e) {
             e.preventDefault();
 
             var $btn = $(this);
             var $wrap = $btn.closest('.theme-framework-media-wrap');
             var $input = $wrap.find('.theme-framework-media-id');
             var $preview = $wrap.find('.theme-framework-media-preview');
-            var $selectBtn = $wrap.find('.theme-framework-media-select');
+            var $selectBtn = $wrap.find('.theme-framework-media-select, .theme-framework-media-upload');
             var $replaceBtn = $wrap.find('.theme-framework-media-replace');
             var $removeBtn = $wrap.find('.theme-framework-media-remove');
 
@@ -21,8 +21,24 @@
             var allowedTypes = $wrap.data('allowed-types');
 
             var libraryOptions = {};
-            if (allowedTypes && Array.isArray(allowedTypes) && allowedTypes.length) {
-                libraryOptions.type = allowedTypes;
+            if (allowedTypes) {
+                if (Array.isArray(allowedTypes) && allowedTypes.length) {
+                    var isOnlyImages = allowedTypes.every(function (t) {
+                        return typeof t === 'string' && (t.indexOf('image/') === 0 || t === 'image');
+                    });
+                    if (isOnlyImages) {
+                        libraryOptions.type = 'image';
+                    } else {
+                        libraryOptions.type = allowedTypes;
+                    }
+                } else if (typeof allowedTypes === 'string' && allowedTypes !== '') {
+                    libraryOptions.type = allowedTypes;
+                }
+            }
+
+            if (typeof wp === 'undefined' || !wp.media) {
+                console.error('WordPress media modal (wp.media) is not available.');
+                return;
             }
 
             var frame = wp.media({

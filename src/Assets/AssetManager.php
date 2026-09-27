@@ -25,7 +25,7 @@ class AssetManager
     /**
      * Framework version string for cache busting.
      */
-    public const VERSION = '1.0.0';
+    public const VERSION = '1.0.1';
 
     /**
      * Set a custom asset base URL.
@@ -183,7 +183,7 @@ class AssetManager
         self::registerScript(
             'theme-framework-media',
             self::getAssetUrl('admin/js/media-field.js'),
-            ['jquery']
+            ['jquery', 'media-editor']
         );
 
         // Gallery Field
@@ -196,7 +196,7 @@ class AssetManager
         self::registerScript(
             'theme-framework-gallery',
             self::getAssetUrl('admin/js/gallery-field.js'),
-            ['jquery', 'jquery-ui-sortable']
+            ['jquery', 'jquery-ui-sortable', 'media-editor']
         );
     }
 

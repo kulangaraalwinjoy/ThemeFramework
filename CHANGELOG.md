@@ -5,6 +5,16 @@ All notable changes to `kulangaraalwinjoy/wp-theme-framework` will be documented
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-09-27
+
+### Fixed
+- **Media & Gallery Script Dependencies**: Added `'media-editor'` to script dependencies in `AssetManager::registerFrameworkAssets()` for `theme-framework-media` and `theme-framework-gallery` to ensure `wp.media` core scripts are guaranteed to load.
+- **Backbone Media Library Query**: Normalized image MIME subtype arrays (e.g. `['image/png', 'image/svg+xml']`) to `'image'` in `media-field.js` and `gallery-field.js` to prevent WordPress Backbone query crashes and empty modal lists.
+- **Media Modal Guard**: Added safety check in media and gallery upload handlers to gracefully log if `wp.media` is unavailable.
+
+### Added
+- **Storage Interoperability**: Added fallback in `PostMetaStorage::get()` and `MenuMetaStorage::get()` to inspect unprefixed meta keys if the prefixed key (`_theme_*`) does not exist, enabling seamless compatibility with legacy or raw WordPress meta.
+
 ## [1.0.0] - 2026-09-27
 
 ### Added

@@ -56,8 +56,24 @@
             var allowedTypes = $wrap.data('allowed-types');
 
             var libraryOptions = { type: 'image' };
-            if (allowedTypes && Array.isArray(allowedTypes) && allowedTypes.length) {
-                libraryOptions.type = allowedTypes;
+            if (allowedTypes) {
+                if (Array.isArray(allowedTypes) && allowedTypes.length) {
+                    var isOnlyImages = allowedTypes.every(function (t) {
+                        return typeof t === 'string' && (t.indexOf('image/') === 0 || t === 'image');
+                    });
+                    if (isOnlyImages) {
+                        libraryOptions.type = 'image';
+                    } else {
+                        libraryOptions.type = allowedTypes;
+                    }
+                } else if (typeof allowedTypes === 'string' && allowedTypes !== '') {
+                    libraryOptions.type = allowedTypes;
+                }
+            }
+
+            if (typeof wp === 'undefined' || !wp.media) {
+                console.error('WordPress media modal (wp.media) is not available.');
+                return;
             }
 
             var frame = wp.media({

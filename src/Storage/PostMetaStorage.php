@@ -66,6 +66,11 @@ class PostMetaStorage implements StorageInterface
         $metaKey = $this->getMetaKey($key);
 
         if (!metadata_exists('post', $postId, $metaKey)) {
+            // Fallback to check unprefixed key if prefixed does not exist
+            if (metadata_exists('post', $postId, $key)) {
+                $fallback = get_post_meta($postId, $key, true);
+                return $fallback !== '' ? $fallback : $default;
+            }
             return $default;
         }
 

@@ -49,4 +49,36 @@ class StorageTest extends TestCase
         $this->assertTrue($storage->delete('site_color'));
         $this->assertNull($storage->get('site_color'));
     }
+
+    public function testPostMetaStorageUnprefixedFallback(): void
+    {
+        $storage = new PostMetaStorage('_theme_');
+        $postId = 88;
+
+        // Set unprefixed meta directly
+        WordPressMockState::$postMeta[88]['legacy_field'] = 'LegacyValue';
+
+        // When prefixed meta does not exist, it should fallback to unprefixed
+        $this->assertSame('LegacyValue', $storage->get('legacy_field', $postId));
+
+        // When prefixed meta exists, it should take precedence
+        $storage->set('legacy_field', 'NewPrefixedValue', $postId);
+        $this->assertSame('NewPrefixedValue', $storage->get('legacy_field', $postId));
+    }
+
+    public function testMenuMetaStorageUnprefixedFallback(): void
+    {
+        $storage = new MenuMetaStorage('_theme_menu_');
+        $menuItemId = 99;
+
+        // Set unprefixed meta directly
+        WordPressMockState::$postMeta[99]['menu_legacy'] = 'LegacyMenuValue';
+
+        // When prefixed meta does not exist, it should fallback to unprefixed
+        $this->assertSame('LegacyMenuValue', $storage->get('menu_legacy', $menuItemId));
+
+        // When prefixed meta exists, it should take precedence
+        $storage->set('menu_legacy', 'NewPrefixedMenuValue', $menuItemId);
+        $this->assertSame('NewPrefixedMenuValue', $storage->get('menu_legacy', $menuItemId));
+    }
 }
