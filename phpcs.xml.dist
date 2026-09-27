@@ -1,0 +1,32 @@
+<?php xml version="1.0"?>
+<ruleset name="WordPress Theme Framework Coding Standards">
+    <description>Coding standards for WordPress Theme Framework PSR-4 package.</description>
+
+    <file>src</file>
+
+    <arg name="extensions" value="php"/>
+    <arg name="colors"/>
+    <arg value="sp"/>
+
+    <!-- Use PSR-12 as foundational standard for modern PSR-4 library -->
+    <rule ref="PSR12"/>
+
+    <!-- WordPress Security and sanitization sniffs -->
+    <rule ref="WordPress.Security.EscapeOutput">
+        <exclude name="WordPress.Security.EscapeOutput.ExceptionNotEscaped"/>
+        <exclude-pattern>*/src/Field/Types/*</exclude-pattern>
+    </rule>
+    <rule ref="WordPress.Security.NonceVerification"/>
+    <rule ref="WordPress.WP.CapitalPDangit"/>
+
+    <!-- Ignore line length warnings for templates and long strings -->
+    <rule ref="Generic.Files.LineLength">
+        <exclude name="Generic.Files.LineLength.TooLong"/>
+    </rule>
+
+    <!-- Exclude directories -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/bin/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/assets/*</exclude-pattern>
+</ruleset>

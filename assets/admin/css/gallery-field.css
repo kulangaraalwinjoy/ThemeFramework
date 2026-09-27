@@ -1,0 +1,92 @@
+/**
+ * WordPress Theme Framework - Gallery Field Styles
+ */
+
+.theme-framework-gallery-wrap {
+    margin-top: 6px;
+}
+
+.theme-framework-gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    min-height: 20px;
+}
+
+.theme-framework-gallery-item {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f6f7f7;
+    cursor: move;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.theme-framework-gallery-item:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.theme-framework-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.theme-framework-gallery-remove {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.theme-framework-gallery-item:hover .theme-framework-gallery-remove {
+    opacity: 1;
+}
+
+.theme-framework-gallery-remove:hover {
+    background: #d63638;
+}
+
+.theme-framework-gallery-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-framework-gallery-clear {
+    color: #b32d2e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.theme-framework-gallery-clear:hover {
+    color: #b32d2e;
+    text-decoration: underline;
+}
+
+/* Drag placeholder */
+.theme-framework-gallery-item.ui-sortable-placeholder {
+    border: 2px dashed #2271b1;
+    background: #f0f6fc;
+    visibility: visible !important;
+}

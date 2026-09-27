@@ -1,0 +1,58 @@
+/**
+ * WordPress Theme Framework - Media Field Styles
+ */
+
+.theme-framework-media-wrap {
+    margin-top: 4px;
+}
+
+.theme-framework-media-preview {
+    margin-bottom: 8px;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.theme-framework-media-preview img {
+    display: block;
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.theme-framework-media-file-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #3c434a;
+}
+
+.theme-framework-media-file-info .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #646970;
+}
+
+.theme-framework-media-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-framework-media-remove {
+    color: #b32d2e;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.theme-framework-media-remove:hover {
+    color: #b32d2e;
+    text-decoration: underline;
+}

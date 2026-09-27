@@ -1,0 +1,46 @@
+/*
+Theme Name: Example Theme using Theme Framework
+Theme URI: https://github.com/kulangaraalwinjoy/ThemeFramework
+Author: Theme Framework Team
+Author URI: https://github.com/kulangaraalwinjoy/ThemeFramework
+Description: An example WordPress theme demonstrating declarative post types, custom fields, menu fields, and options with YourVendor Theme Framework.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: example-theme
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+}
+
+.project-details {
+    margin: 30px 0;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.project-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.project-gallery-grid img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+}

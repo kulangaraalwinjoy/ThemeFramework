@@ -1,0 +1,71 @@
+/**
+ * WordPress Theme Framework - Admin Base Styles
+ */
+
+.theme-framework-field {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.theme-framework-field:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.theme-framework-field-label-wrap {
+    margin-bottom: 6px;
+}
+
+.theme-framework-field-label {
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    color: #1d2327;
+}
+
+.theme-framework-required {
+    color: #d63638;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+.theme-framework-field-control input[type="text"],
+.theme-framework-field-control input[type="number"],
+.theme-framework-field-control input[type="url"],
+.theme-framework-field-control input[type="email"],
+.theme-framework-field-control select,
+.theme-framework-field-control textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.theme-framework-description {
+    margin-top: 4px;
+    color: #646970;
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Nav Menu integration styles */
+.theme-framework-menu-fields {
+    border-top: 1px solid #dcdcde;
+    padding-top: 8px;
+    margin-top: 8px;
+}
+
+.theme-framework-menu-field-wrap {
+    margin-top: 8px;
+}
+
+.theme-framework-menu-field-wrap .theme-framework-field {
+    margin-bottom: 8px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* Settings wrap */
+.theme-framework-settings-wrap {
+    max-width: 1000px;
+}
