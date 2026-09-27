@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Assets\AssetManager;
-use YourVendor\ThemeFramework\Assets\Assets;
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Assets\AssetManager;
+use KulangaraAlwinJoy\ThemeFramework\Assets\Assets;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class AssetsTest extends TestCase
 {

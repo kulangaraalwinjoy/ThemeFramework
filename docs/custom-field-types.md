@@ -11,7 +11,7 @@ Extend `BaseFieldType` to get validation and HTML attribute handling for free:
 ```php
 namespace MyTheme\Fields;
 
-use YourVendor\ThemeFramework\Field\Types\BaseFieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\BaseFieldType;
 
 class ColorPickerField extends BaseFieldType
 {
@@ -59,7 +59,7 @@ class ColorPickerField extends BaseFieldType
 In your theme's bootstrap or `functions.php`:
 
 ```php
-use YourVendor\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
 use MyTheme\Fields\ColorPickerField;
 
 FieldType::register('color', ColorPickerField::class);

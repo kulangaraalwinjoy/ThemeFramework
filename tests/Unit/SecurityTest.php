@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Field\FieldSaver;
-use YourVendor\ThemeFramework\Security\Capability;
-use YourVendor\ThemeFramework\Security\Nonce;
-use YourVendor\ThemeFramework\Security\Sanitizer;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldSaver;
+use KulangaraAlwinJoy\ThemeFramework\Security\Capability;
+use KulangaraAlwinJoy\ThemeFramework\Security\Nonce;
+use KulangaraAlwinJoy\ThemeFramework\Security\Sanitizer;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class SecurityTest extends TestCase
 {

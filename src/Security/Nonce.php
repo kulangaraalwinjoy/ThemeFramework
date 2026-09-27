@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Security;
+namespace KulangaraAlwinJoy\ThemeFramework\Security;
 
 /**
  * Handles WordPress nonce generation, rendering, and verification.

@@ -7,7 +7,7 @@ The framework includes a high-performance Asset Manager designed to eliminate ad
 ## Public Assets API
 
 ```php
-use YourVendor\ThemeFramework\Assets;
+use KulangaraAlwinJoy\ThemeFramework\Assets;
 
 // Registering assets
 Assets::registerStyle('my-admin-css', get_template_directory_uri() . '/css/admin.css');
@@ -50,7 +50,7 @@ Field::add('color_picker_field', [
 You can associate assets with a post type for both admin screens and frontend single view screens:
 
 ```php
-use YourVendor\ThemeFramework\PostType;
+use KulangaraAlwinJoy\ThemeFramework\PostType;
 
 PostType::assets('project', [
     'admin' => [

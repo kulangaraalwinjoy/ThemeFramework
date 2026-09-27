@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field\Types;
+namespace KulangaraAlwinJoy\ThemeFramework\Field\Types;
 
 /**
  * Custom field type acting as an escape hatch for custom callback rendering.

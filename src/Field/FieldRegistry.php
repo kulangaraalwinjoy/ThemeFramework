@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field;
+namespace KulangaraAlwinJoy\ThemeFramework\Field;
 
 use InvalidArgumentException;
-use YourVendor\ThemeFramework\Support\Arr;
+use KulangaraAlwinJoy\ThemeFramework\Support\Arr;
 
 /**
  * Central registry for all configured post and shared fields.

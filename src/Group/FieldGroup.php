@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Group;
+namespace KulangaraAlwinJoy\ThemeFramework\Group;
 
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Field\FieldRenderer;
-use YourVendor\ThemeFramework\Security\Nonce;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRenderer;
+use KulangaraAlwinJoy\ThemeFramework\Security\Nonce;
 
 /**
  * Public API Facade and Meta Box integration for Field Groups.

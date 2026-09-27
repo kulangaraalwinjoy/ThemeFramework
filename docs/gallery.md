@@ -7,7 +7,7 @@ The `gallery` field type provides a complete multi-image manager with drag-and-d
 ## Example Usage
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 Field::add('project_photos', [
     'label'     => 'Project Photos',
@@ -34,7 +34,7 @@ Field::add('project_photos', [
 Use `Field::images()` to get an array of formatted image URLs for any registered image size:
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 $images = Field::images('project_photos', get_the_ID(), 'large');
 

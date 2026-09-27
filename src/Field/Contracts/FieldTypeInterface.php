@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field\Contracts;
+namespace KulangaraAlwinJoy\ThemeFramework\Field\Contracts;
 
 /**
  * Common contract for all field types.

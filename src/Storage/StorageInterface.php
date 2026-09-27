@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Storage;
+namespace KulangaraAlwinJoy\ThemeFramework\Storage;
 
 /**
  * Contract for field value storage backends.

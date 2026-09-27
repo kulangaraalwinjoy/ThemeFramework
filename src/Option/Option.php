@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Option;
+namespace KulangaraAlwinJoy\ThemeFramework\Option;
 
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Storage\OptionStorage;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Storage\OptionStorage;
 
 /**
  * Public API Facade for theme options registration, querying, and manipulation.

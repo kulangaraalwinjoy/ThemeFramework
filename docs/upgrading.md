@@ -1,6 +1,6 @@
 # Upgrading & Versioning Guide
 
-`yourvendor/wp-theme-framework` strictly follows [Semantic Versioning 2.0.0](https://semver.org/).
+`kulangaraalwinjoy/wp-theme-framework` strictly follows [Semantic Versioning 2.0.0](https://semver.org/).
 
 ---
 
@@ -32,7 +32,7 @@ The following interfaces are considered stable public API. Their signatures and 
 To upgrade to the latest compatible minor or patch release:
 
 ```bash
-composer update yourvendor/wp-theme-framework
+composer update kulangaraalwinjoy/wp-theme-framework
 ```
 
 Always review [`CHANGELOG.md`](../CHANGELOG.md) before performing major version upgrades.

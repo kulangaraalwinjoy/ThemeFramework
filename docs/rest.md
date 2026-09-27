@@ -9,7 +9,7 @@ The framework provides native WordPress REST API integration using official Word
 To expose a post field in the WordPress REST API and the Block Editor, set `show_in_rest => true`:
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 Field::add('location', [
     'label'        => 'Location',

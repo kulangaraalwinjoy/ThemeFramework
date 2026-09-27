@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Support;
+namespace KulangaraAlwinJoy\ThemeFramework\Support;
 
 /**
  * String helper utility class.

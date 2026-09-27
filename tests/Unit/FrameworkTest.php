@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class FrameworkTest extends TestCase
 {

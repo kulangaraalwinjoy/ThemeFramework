@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Assets;
+namespace KulangaraAlwinJoy\ThemeFramework\Assets;
 
 /**
  * Public API Facade for script and style management.

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\REST;
+namespace KulangaraAlwinJoy\ThemeFramework\REST;
 
 use WP_Error;
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Field\FieldValidator;
-use YourVendor\ThemeFramework\Security\Capability;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldValidator;
+use KulangaraAlwinJoy\ThemeFramework\Security\Capability;
 
 /**
  * Handles WordPress REST API registration and exposure for fields.

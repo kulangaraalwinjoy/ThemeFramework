@@ -7,7 +7,7 @@ The `media` field type integrates directly with the native WordPress Media Libra
 ## Example Usage
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 Field::add('company_logo', [
     'label'         => 'Company Logo',
@@ -72,7 +72,7 @@ When allowing `image/svg+xml`:
 ## Querying in Templates
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 // 1. Get attachment URL directly
 $logoUrl = Field::url('company_logo', $postId, 'large');

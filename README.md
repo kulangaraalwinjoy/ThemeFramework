@@ -5,6 +5,8 @@
 [![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)](tests/)
 [![Static Analysis](https://img.shields.io/badge/PHPStan-Level%207-brightgreen.svg)](phpstan.neon.dist)
 
+> ⚡ **Note**: This application is proudly **Vibe Coded** by **Alwin Joy** ([kulangaraalwinjoy@gmail.com](mailto:kulangaraalwinjoy@gmail.com)).
+
 A production-ready, declarative PHP framework and Composer package for WordPress theme development.
 
 The framework lets developers define **WHAT** they need using simple declarative configuration. It automatically handles the underlying WordPress implementation:
@@ -54,7 +56,7 @@ There is **one** shared field engine. Field types do not know or care whether th
 Install into your WordPress theme using Composer:
 
 ```bash
-composer require yourvendor/wp-theme-framework
+composer require kulangaraalwinjoy/wp-theme-framework
 ```
 
 ### Direct GitHub Installation (VCS)
@@ -70,12 +72,12 @@ During development or if using GitHub directly, add this to your theme's `compos
         }
     ],
     "require": {
-        "yourvendor/wp-theme-framework": "dev-main"
+        "kulangaraalwinjoy/wp-theme-framework": "dev-main"
     }
 }
 ```
 
-Then run `composer update yourvendor/wp-theme-framework`.
+Then run `composer update kulangaraalwinjoy/wp-theme-framework`.
 
 ---
 
@@ -86,12 +88,12 @@ Add this to your theme's `functions.php`:
 ```php
 require_once get_template_directory() . '/vendor/autoload.php';
 
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\PostType;
-use YourVendor\ThemeFramework\Field;
-use YourVendor\ThemeFramework\MenuField;
-use YourVendor\ThemeFramework\Option;
-use YourVendor\ThemeFramework\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\PostType;
+use KulangaraAlwinJoy\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\OptionPage;
 
 // 1. Boot the framework (Idempotent)
 Framework::boot();
@@ -167,8 +169,8 @@ Option::add('custom_css', [
 In your theme templates (e.g. `single-project.php`):
 
 ```php
-use YourVendor\ThemeFramework\Field;
-use YourVendor\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Option;
 
 // Retrieve post fields
 $location   = Field::get('location');
@@ -262,6 +264,17 @@ Full documentation is available in the [`docs/`](docs/) directory:
 * [Extending (Hooks & Filters)](docs/extending.md)
 * [Security Guide](docs/security.md)
 * [Upgrading & SemVer](docs/upgrading.md)
+
+---
+
+## Author
+
+Developed by **Alwin Joy**  
+- **Email**: [kulangaraalwinjoy@gmail.com](mailto:kulangaraalwinjoy@gmail.com)  
+- **GitHub**: [https://github.com/kulangaraalwinjoy](https://github.com/kulangaraalwinjoy)  
+- **Repository**: [https://github.com/kulangaraalwinjoy/ThemeFramework](https://github.com/kulangaraalwinjoy/ThemeFramework)
+
+⚡ *Built as a Vibe Coded application with clean architecture, strict typing, and comprehensive automated test coverage.*
 
 ---
 

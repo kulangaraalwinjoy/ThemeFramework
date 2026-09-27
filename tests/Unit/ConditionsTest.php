@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Support\Conditions;
-use YourVendor\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Support\Conditions;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
 
 class ConditionsTest extends TestCase
 {

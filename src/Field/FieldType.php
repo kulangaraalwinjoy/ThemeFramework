@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field;
+namespace KulangaraAlwinJoy\ThemeFramework\Field;
 
 use InvalidArgumentException;
-use YourVendor\ThemeFramework\Field\Contracts\FieldTypeInterface;
+use KulangaraAlwinJoy\ThemeFramework\Field\Contracts\FieldTypeInterface;
 
 /**
  * Registry for available FieldType implementations.

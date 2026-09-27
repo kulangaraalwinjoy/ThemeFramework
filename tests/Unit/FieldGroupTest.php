@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Group\FieldGroup;
-use YourVendor\ThemeFramework\Group\FieldGroupRegistry;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Group\FieldGroup;
+use KulangaraAlwinJoy\ThemeFramework\Group\FieldGroupRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class FieldGroupTest extends TestCase
 {

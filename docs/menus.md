@@ -7,7 +7,7 @@ The `MenuField` API adds custom fields to WordPress navigation menu items withou
 ## Example Usage
 
 ```php
-use YourVendor\ThemeFramework\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\MenuField;
 
 MenuField::add('is_mega_menu', [
     'label'          => 'Mega Menu',

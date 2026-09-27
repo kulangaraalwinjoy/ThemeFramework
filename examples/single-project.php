@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Demonstrates consuming fields in templates cleanly.
  */
 
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 get_header();
 

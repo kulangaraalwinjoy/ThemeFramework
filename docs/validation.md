@@ -9,7 +9,7 @@ The framework enforces strict server-side validation before saving any post fiel
 Add a `validation` array to your field configuration:
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 Field::add('user_age', [
     'label'      => 'Age',
@@ -62,7 +62,7 @@ Field::add('postal_code', [
 You can register custom validation rules available across the entire site:
 
 ```php
-use YourVendor\ThemeFramework\Support\Validator;
+use KulangaraAlwinJoy\ThemeFramework\Support\Validator;
 
 Validator::extend('even_number', function ($value, $parameter, $field) {
     return is_numeric($value) && ((int) $value % 2 === 0);

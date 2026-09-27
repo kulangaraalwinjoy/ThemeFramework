@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests;
 
 /**
  * State store for WordPress mock functions in tests.

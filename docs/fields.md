@@ -7,7 +7,7 @@ The Field API provides a unified mechanism for registering, displaying, saving, 
 ## Adding Fields
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 Field::add('location', [
     'label'        => 'Location',

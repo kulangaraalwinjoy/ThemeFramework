@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Support;
+namespace KulangaraAlwinJoy\ThemeFramework\Support;
 
 /**
  * Array helper utility class.

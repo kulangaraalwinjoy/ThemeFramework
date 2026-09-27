@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Security;
+namespace KulangaraAlwinJoy\ThemeFramework\Security;
 
 /**
  * Robust sanitization helper for field and option values.

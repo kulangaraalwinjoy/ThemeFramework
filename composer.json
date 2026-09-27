@@ -1,12 +1,12 @@
 {
-    "name": "yourvendor/wp-theme-framework",
-    "description": "A production-ready, declarative PHP package for WordPress theme development.",
+    "name": "kulangaraalwinjoy/wp-theme-framework",
+    "description": "A production-ready, declarative PHP package for WordPress theme development. Vibe Coded by Alwin Joy.",
     "type": "library",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Theme Framework Team",
-            "email": "dev@example.com"
+            "name": "Alwin Joy",
+            "email": "kulangaraalwinjoy@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\ThemeFramework\\": "src/"
+            "KulangaraAlwinJoy\\ThemeFramework\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YourVendor\\ThemeFramework\\Tests\\": "tests/"
+            "KulangaraAlwinJoy\\ThemeFramework\\Tests\\": "tests/"
         }
     },
     "config": {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field;
+namespace KulangaraAlwinJoy\ThemeFramework\Field;
 
-use YourVendor\ThemeFramework\Storage\PostMetaStorage;
+use KulangaraAlwinJoy\ThemeFramework\Storage\PostMetaStorage;
 
 /**
  * Public API Facade for post fields registration, querying, and manipulation.

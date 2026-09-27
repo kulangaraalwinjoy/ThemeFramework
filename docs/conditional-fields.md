@@ -9,7 +9,7 @@ The framework features an automated conditional visibility engine that displays 
 Add a `conditions` array to your field definition:
 
 ```php
-use YourVendor\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field;
 
 // Master Field
 Field::add('media_type', [

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\Group\FieldGroupRegistry;
-use YourVendor\ThemeFramework\Menu\MenuFieldRegistry;
-use YourVendor\ThemeFramework\Option\OptionRegistry;
-use YourVendor\ThemeFramework\PostType\Registry as PostTypeRegistry;
-use YourVendor\ThemeFramework\Support\Validator;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\Group\FieldGroupRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Menu\MenuFieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionRegistry;
+use KulangaraAlwinJoy\ThemeFramework\PostType\Registry as PostTypeRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Support\Validator;
 
 abstract class TestCase extends BaseTestCase
 {

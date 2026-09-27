@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Assets;
+namespace KulangaraAlwinJoy\ThemeFramework\Assets;
 
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Field\FieldResolver;
-use YourVendor\ThemeFramework\Menu\MenuFieldRegistry;
-use YourVendor\ThemeFramework\Option\OptionRegistry;
-use YourVendor\ThemeFramework\PostType\Registry as PostTypeRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldResolver;
+use KulangaraAlwinJoy\ThemeFramework\Menu\MenuFieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionRegistry;
+use KulangaraAlwinJoy\ThemeFramework\PostType\Registry as PostTypeRegistry;
 
 /**
  * Manages registration and conditional loading of scripts and stylesheets.
@@ -58,7 +58,7 @@ class AssetManager
                 $relative = substr($frameworkPath, strlen($themeDir));
                 $base = rtrim($themeUri . $relative . '/assets', '/');
             } else {
-                $base = content_url('/vendor/yourvendor/wp-theme-framework/assets');
+                $base = content_url('/vendor/kulangaraalwinjoy/wp-theme-framework/assets');
             }
         }
 

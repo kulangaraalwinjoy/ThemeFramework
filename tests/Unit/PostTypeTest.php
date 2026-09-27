@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
 use InvalidArgumentException;
-use YourVendor\ThemeFramework\PostType\PostType;
-use YourVendor\ThemeFramework\PostType\Registry;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\PostType\PostType;
+use KulangaraAlwinJoy\ThemeFramework\PostType\Registry;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class PostTypeTest extends TestCase
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Option;
+namespace KulangaraAlwinJoy\ThemeFramework\Option;
 
-use YourVendor\ThemeFramework\Field\FieldRenderer;
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Field\FieldValidator;
-use YourVendor\ThemeFramework\Security\Capability;
-use YourVendor\ThemeFramework\Storage\OptionStorage;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRenderer;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldValidator;
+use KulangaraAlwinJoy\ThemeFramework\Security\Capability;
+use KulangaraAlwinJoy\ThemeFramework\Storage\OptionStorage;
 
 /**
  * Handles WordPress Settings API integration and option page rendering.

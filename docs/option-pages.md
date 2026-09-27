@@ -7,7 +7,7 @@ The `OptionPage` API registers top-level and submenu administration pages in Wor
 ## Registering Top-Level Option Pages
 
 ```php
-use YourVendor\ThemeFramework\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\OptionPage;
 
 OptionPage::register('theme_settings', [
     'title'      => 'Theme Settings',

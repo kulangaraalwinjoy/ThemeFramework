@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field\Types;
+namespace KulangaraAlwinJoy\ThemeFramework\Field\Types;
 
-use YourVendor\ThemeFramework\Assets\AssetManager;
-use YourVendor\ThemeFramework\Security\Sanitizer;
+use KulangaraAlwinJoy\ThemeFramework\Assets\AssetManager;
+use KulangaraAlwinJoy\ThemeFramework\Security\Sanitizer;
 
 /**
  * Gallery multi-image field type supporting add, remove, and reorder.

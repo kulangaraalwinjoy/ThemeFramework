@@ -1,6 +1,6 @@
 # Security Guide
 
-Security is a core design requirement of `yourvendor/wp-theme-framework`. Every read, write, and render operation enforces WordPress security best practices.
+Security is a core design requirement of `kulangaraalwinjoy/wp-theme-framework`. Every read, write, and render operation enforces WordPress security best practices.
 
 ---
 

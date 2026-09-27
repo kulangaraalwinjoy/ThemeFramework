@@ -7,7 +7,7 @@ The framework provides a clean, declarative interface for registering WordPress 
 ## Registration
 
 ```php
-use YourVendor\ThemeFramework\PostType;
+use KulangaraAlwinJoy\ThemeFramework\PostType;
 
 PostType::register('project', [
     'label'          => 'Projects',

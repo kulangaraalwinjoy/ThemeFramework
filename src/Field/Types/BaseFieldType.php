@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field\Types;
+namespace KulangaraAlwinJoy\ThemeFramework\Field\Types;
 
-use YourVendor\ThemeFramework\Field\Contracts\FieldTypeInterface;
-use YourVendor\ThemeFramework\Support\Validator;
+use KulangaraAlwinJoy\ThemeFramework\Field\Contracts\FieldTypeInterface;
+use KulangaraAlwinJoy\ThemeFramework\Support\Validator;
 
 /**
  * Base abstract class providing common utility methods for field types.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field;
+namespace KulangaraAlwinJoy\ThemeFramework\Field;
 
-use YourVendor\ThemeFramework\Support\Validator;
+use KulangaraAlwinJoy\ThemeFramework\Support\Validator;
 
 /**
  * Validates field values using FieldType logic and validation rules.

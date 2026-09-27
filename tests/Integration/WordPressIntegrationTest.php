@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Integration;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Integration;
 
-use YourVendor\ThemeFramework\Assets\AssetManager;
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Field\FieldSaver;
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\Menu\MenuField;
-use YourVendor\ThemeFramework\Menu\MenuFieldSaver;
-use YourVendor\ThemeFramework\Option\Option;
-use YourVendor\ThemeFramework\Option\OptionPage;
-use YourVendor\ThemeFramework\PostType\PostType;
-use YourVendor\ThemeFramework\Security\Nonce;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Assets\AssetManager;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldSaver;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\Menu\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\Menu\MenuFieldSaver;
+use KulangaraAlwinJoy\ThemeFramework\Option\Option;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\PostType\PostType;
+use KulangaraAlwinJoy\ThemeFramework\Security\Nonce;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 /**
  * Realistic End-to-End WordPress Integration Test.
@@ -167,9 +167,9 @@ class WordPressIntegrationTest extends TestCase
         ];
 
         $fields = [
-            'location' => \YourVendor\ThemeFramework\Field\FieldRegistry::get('location'),
-            'icon' => \YourVendor\ThemeFramework\Field\FieldRegistry::get('icon'),
-            'gallery' => \YourVendor\ThemeFramework\Field\FieldRegistry::get('gallery'),
+            'location' => \KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry::get('location'),
+            'icon' => \KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry::get('icon'),
+            'gallery' => \KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry::get('gallery'),
         ];
 
         $saved = $fieldSaver->save(

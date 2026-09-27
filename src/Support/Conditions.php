@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Support;
+namespace KulangaraAlwinJoy\ThemeFramework\Support;
 
 /**
  * Handles conditional field rules evaluation and serialization.

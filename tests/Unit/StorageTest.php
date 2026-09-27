@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Storage\MenuMetaStorage;
-use YourVendor\ThemeFramework\Storage\OptionStorage;
-use YourVendor\ThemeFramework\Storage\PostMetaStorage;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Storage\MenuMetaStorage;
+use KulangaraAlwinJoy\ThemeFramework\Storage\OptionStorage;
+use KulangaraAlwinJoy\ThemeFramework\Storage\PostMetaStorage;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class StorageTest extends TestCase
 {

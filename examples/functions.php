@@ -11,13 +11,13 @@ if (file_exists(get_template_directory() . '/vendor/autoload.php')) {
     require_once get_template_directory() . '/vendor/autoload.php';
 }
 
-use YourVendor\ThemeFramework\Assets;
-use YourVendor\ThemeFramework\Field;
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\MenuField;
-use YourVendor\ThemeFramework\Option;
-use YourVendor\ThemeFramework\OptionPage;
-use YourVendor\ThemeFramework\PostType;
+use KulangaraAlwinJoy\ThemeFramework\Assets;
+use KulangaraAlwinJoy\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\PostType;
 
 // 1. Initialize the framework
 Framework::boot();

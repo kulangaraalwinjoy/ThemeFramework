@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Menu;
+namespace KulangaraAlwinJoy\ThemeFramework\Menu;
 
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Field\FieldValidator;
-use YourVendor\ThemeFramework\Security\Capability;
-use YourVendor\ThemeFramework\Security\Nonce;
-use YourVendor\ThemeFramework\Storage\MenuMetaStorage;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldValidator;
+use KulangaraAlwinJoy\ThemeFramework\Security\Capability;
+use KulangaraAlwinJoy\ThemeFramework\Security\Nonce;
+use KulangaraAlwinJoy\ThemeFramework\Storage\MenuMetaStorage;
 
 /**
  * Handles security checks, sanitization, and saving of menu item custom fields.

@@ -1,6 +1,6 @@
 # Installation Guide
 
-`yourvendor/wp-theme-framework` is a standalone PHP Composer library designed to be installed into any WordPress theme.
+`kulangaraalwinjoy/wp-theme-framework` is a standalone PHP Composer library designed to be installed into any WordPress theme.
 
 ---
 
@@ -17,7 +17,7 @@
 In your theme directory (or WordPress project root), run:
 
 ```bash
-composer require yourvendor/wp-theme-framework
+composer require kulangaraalwinjoy/wp-theme-framework
 ```
 
 ---
@@ -35,7 +35,7 @@ To install this package directly from GitHub during development, add the VCS rep
         }
     ],
     "require": {
-        "yourvendor/wp-theme-framework": "dev-main"
+        "kulangaraalwinjoy/wp-theme-framework": "dev-main"
     }
 }
 ```
@@ -43,7 +43,7 @@ To install this package directly from GitHub during development, add the VCS rep
 Then run:
 
 ```bash
-composer update yourvendor/wp-theme-framework
+composer update kulangaraalwinjoy/wp-theme-framework
 ```
 
 ---
@@ -58,7 +58,7 @@ if (file_exists(get_template_directory() . '/vendor/autoload.php')) {
     require_once get_template_directory() . '/vendor/autoload.php';
 }
 
-use YourVendor\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
 
 // Boot the framework once
 Framework::boot();

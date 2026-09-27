@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field\Types;
+namespace KulangaraAlwinJoy\ThemeFramework\Field\Types;
 
-use YourVendor\ThemeFramework\Security\Sanitizer;
+use KulangaraAlwinJoy\ThemeFramework\Security\Sanitizer;
 
 /**
  * Email input field type.

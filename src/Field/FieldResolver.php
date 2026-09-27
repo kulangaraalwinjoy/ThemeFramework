@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Field;
+namespace KulangaraAlwinJoy\ThemeFramework\Field;
 
 /**
  * Resolves fields registered for given post types, screens, or contexts.

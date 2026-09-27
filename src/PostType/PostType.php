@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\PostType;
+namespace KulangaraAlwinJoy\ThemeFramework\PostType;
 
 /**
  * Public API Facade for Custom Post Type registration and asset binding.

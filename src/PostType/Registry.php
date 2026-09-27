@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\PostType;
+namespace KulangaraAlwinJoy\ThemeFramework\PostType;
 
 use InvalidArgumentException;
 

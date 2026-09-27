@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Tests\Unit;
+namespace KulangaraAlwinJoy\ThemeFramework\Tests\Unit;
 
-use YourVendor\ThemeFramework\Option\Option;
-use YourVendor\ThemeFramework\Option\OptionPage;
-use YourVendor\ThemeFramework\Option\OptionRegistry;
-use YourVendor\ThemeFramework\Tests\TestCase;
-use YourVendor\ThemeFramework\Tests\WordPressMockState;
+use KulangaraAlwinJoy\ThemeFramework\Option\Option;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Tests\TestCase;
+use KulangaraAlwinJoy\ThemeFramework\Tests\WordPressMockState;
 
 class OptionTest extends TestCase
 {

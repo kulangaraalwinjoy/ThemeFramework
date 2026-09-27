@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get up and running with `yourvendor/wp-theme-framework` in minutes.
+Get up and running with `kulangaraalwinjoy/wp-theme-framework` in minutes.
 
 ---
 
@@ -11,12 +11,12 @@ In your theme's `functions.php`:
 ```php
 require_once get_template_directory() . '/vendor/autoload.php';
 
-use YourVendor\ThemeFramework\Framework;
-use YourVendor\ThemeFramework\PostType;
-use YourVendor\ThemeFramework\Field;
-use YourVendor\ThemeFramework\MenuField;
-use YourVendor\ThemeFramework\Option;
-use YourVendor\ThemeFramework\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\Framework;
+use KulangaraAlwinJoy\ThemeFramework\PostType;
+use KulangaraAlwinJoy\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\OptionPage;
 
 Framework::boot();
 ```
@@ -97,8 +97,8 @@ Option::add('custom_css', [
 In your theme template (e.g. `single-project.php`):
 
 ```php
-use YourVendor\ThemeFramework\Field;
-use YourVendor\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\Field;
+use KulangaraAlwinJoy\ThemeFramework\Option;
 
 // Retrieve post meta
 $location = Field::get('location');

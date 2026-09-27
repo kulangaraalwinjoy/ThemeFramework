@@ -2,29 +2,29 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework;
+namespace KulangaraAlwinJoy\ThemeFramework;
 
-use YourVendor\ThemeFramework\Assets\AssetManager;
-use YourVendor\ThemeFramework\Field\Field;
-use YourVendor\ThemeFramework\Field\FieldRegistry;
-use YourVendor\ThemeFramework\Field\FieldResolver;
-use YourVendor\ThemeFramework\Field\FieldSaver;
-use YourVendor\ThemeFramework\Field\FieldType;
-use YourVendor\ThemeFramework\Field\Types\CheckboxField;
-use YourVendor\ThemeFramework\Field\Types\CustomField;
-use YourVendor\ThemeFramework\Field\Types\EmailField;
-use YourVendor\ThemeFramework\Field\Types\GalleryField;
-use YourVendor\ThemeFramework\Field\Types\MediaField;
-use YourVendor\ThemeFramework\Field\Types\NumberField;
-use YourVendor\ThemeFramework\Field\Types\SelectField;
-use YourVendor\ThemeFramework\Field\Types\TextareaField;
-use YourVendor\ThemeFramework\Field\Types\TextField;
-use YourVendor\ThemeFramework\Field\Types\UrlField;
-use YourVendor\ThemeFramework\Group\FieldGroup;
-use YourVendor\ThemeFramework\Menu\MenuField;
-use YourVendor\ThemeFramework\Option\OptionPage;
-use YourVendor\ThemeFramework\PostType\PostType;
-use YourVendor\ThemeFramework\REST\RestSupport;
+use KulangaraAlwinJoy\ThemeFramework\Assets\AssetManager;
+use KulangaraAlwinJoy\ThemeFramework\Field\Field;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldResolver;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldSaver;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\CheckboxField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\CustomField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\EmailField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\GalleryField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\MediaField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\NumberField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\SelectField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\TextareaField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\TextField;
+use KulangaraAlwinJoy\ThemeFramework\Field\Types\UrlField;
+use KulangaraAlwinJoy\ThemeFramework\Group\FieldGroup;
+use KulangaraAlwinJoy\ThemeFramework\Menu\MenuField;
+use KulangaraAlwinJoy\ThemeFramework\Option\OptionPage;
+use KulangaraAlwinJoy\ThemeFramework\PostType\PostType;
+use KulangaraAlwinJoy\ThemeFramework\REST\RestSupport;
 
 /**
  * Main Framework Bootstrapper and lifecycle coordinator.

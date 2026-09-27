@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Menu;
+namespace KulangaraAlwinJoy\ThemeFramework\Menu;
 
 use InvalidArgumentException;
-use YourVendor\ThemeFramework\Field\FieldType;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldType;
 
 /**
  * Registry for menu item custom fields.

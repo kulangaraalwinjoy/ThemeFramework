@@ -7,7 +7,7 @@ The `Option` API allows theme developers to define, store, and query global them
 ## Adding Theme Options
 
 ```php
-use YourVendor\ThemeFramework\Option;
+use KulangaraAlwinJoy\ThemeFramework\Option;
 
 Option::add('site_logo', [
     'label' => 'Site Logo',

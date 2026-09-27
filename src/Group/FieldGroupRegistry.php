@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\ThemeFramework\Group;
+namespace KulangaraAlwinJoy\ThemeFramework\Group;
 
 use InvalidArgumentException;
-use YourVendor\ThemeFramework\Field\FieldRegistry;
+use KulangaraAlwinJoy\ThemeFramework\Field\FieldRegistry;
 
 /**
  * Registry for Meta Box Field Groups.
