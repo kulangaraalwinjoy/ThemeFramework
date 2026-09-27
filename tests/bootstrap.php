@@ -11,7 +11,7 @@ WordPressMockState::reset();
 
 // Core WordPress helper functions
 if (!function_exists('__return_null')) {
-    function __return_null(): null
+    function __return_null()
     {
         return null;
     }
